@@ -1,0 +1,16 @@
+{
+  "name": "eagle-nova-visao",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node tests/site-check.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0",
+    "@playwright/test": "^1.58.0"
+  }
+}
